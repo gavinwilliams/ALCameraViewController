@@ -299,7 +299,7 @@ public class ALCameraViewController: UIViewController {
         }
     }
     
-    internal func onConfirmComplete(image: UIImage?) {
+    public func onConfirmComplete(image: UIImage?) {
         dismissViewControllerAnimated(true, completion: nil)
         onCompletion?(image)
     }
